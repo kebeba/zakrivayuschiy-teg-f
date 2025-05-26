@@ -25,11 +25,17 @@
   --img-label-color-fill: rgb(0 0 0 / 0.5);
   --button-pseudo-color-background: #000;
   --button-pseudo-color-text: #fff;
+  --heart-contour-color: #000;
+  --heart-body-color: transparent;
+  --heart-core-color: transparent;
+  --heart-initial-color: #000;
+  --heart-animation-fill-color: #ff0000;
 
   --font-family-main: 'Inter-Variable';
   --font-family-accent: 'Press Start 2P';
   --text-weight-main: 400;
   --text-weight-title: 700;
 
-  --logo-font-size: 49px;
+  --logo-font-size: clamp(3.063rem, 2.608rem + 1.94vw, 4.063rem);
+  --title-font-size: clamp(0.875rem, 0.619rem + 1.09vw, 1.438rem);
 }
