@@ -131,6 +131,42 @@
   aspect-ratio: 1/1;
 }
 
+.freetrack-image {
+  filter:
+    sepia(60%)
+    brightness(70%);
+}
+
+.blank-paper-image {
+  filter: saturate(150%);
+}
+
+.first-achievement-image {
+  filter: hue-rotate(-180deg);
+}
+
+.perfection-image {
+  filter: contrast(0.8);
+}
+
+.loved-ones-image {
+  filter: grayscale(60%);
+}
+
+.idea-strategy-image {
+  filter: invert(20%);
+}
+
+.balance-image {
+  filter: blur(1px);
+}
+
+.whats-next-image {
+  filter:
+    opacity(85%)
+    invert(20%);
+}
+
 .card__image-label {
   position: absolute;
   top: clamp(1.438rem, 1.381rem + 0.24vw, 1.563rem);
@@ -185,11 +221,10 @@
 .save-button {
   inline-size: clamp(19.125rem, 18.301rem + 3.52vw, 20.938rem);
   block-size: min-content;
-  padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   align-items: center;
+  gap: 10px;
   margin: 50px auto 100px;
   padding: 15px 0;
   background-color: var(--background-color);
